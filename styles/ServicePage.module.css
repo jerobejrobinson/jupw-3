@@ -1,0 +1,85 @@
+.content h1 {
+    font-weight: bold;
+    font-size: 1.75rem; /* 24px */
+    line-height: 2rem; /* 32px */
+    padding: 0.5rem; /* 8px */
+    @media (min-width: 768px) {
+
+    }
+    
+    @media (min-width: 1024px) {
+
+    }
+}
+.content h2 {
+    font-weight: bold;
+    font-size: 1.5rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+    padding: 0.5rem; /* 8px */
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+}
+.content h3 {
+    font-weight: bold;
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+    padding: 0.5rem; /* 8px */
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+}
+.content p {
+    line-height: 1.5rem; /* 24px */
+    padding: 0.5rem; /* 8px */
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+}
+
+.content a:hover {
+    color:rgba(25, 113, 203, 1);
+}
+.breadcrumbs {
+    background: #014993;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    text-transform: capitalize;
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+}
+.breadcrumbs:hover {
+    background: #1971CB;
+}
+
+.blogCard {
+    border: 10px solid rgba(255, 255, 255, .9);
+}
+.blogCard:hover {
+    border: 10px solid rgba(25, 113, 203, .9);
+}
+.blogCard:hover .blogCardTitle{
+    box-shadow: inset 0 0 2000px rgba(25, 113, 203, .9);
+    color: white;
+}
+
+.blogCardTitle {
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .9);
+}

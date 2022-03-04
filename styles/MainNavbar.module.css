@@ -1,0 +1,20 @@
+.hoverOverTab:hover {
+    transition: .3s ease-in-out;
+    background-color: #1971cb;
+    color: white;
+}
+
+.mobileMenuWrapper {
+    position: absolute;
+    top: 80px;
+    height: 100%;
+    width: 100vw;
+    background: red;
+    z-index: 999;
+    transition: 0.3s ease-in-out;
+    background-color: white;
+}
+
+.mobileMenuWrapper a:hover {
+    background: #1971cb;
+}
