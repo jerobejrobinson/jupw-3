@@ -24,7 +24,7 @@ export default function Index({services}) {
                     <Grid>
                         <div className="container"
                             className={`${styles.breadcrumbs} col-span-4 md:col-span-8 mb-0 lg:col-span-2 bg-red-100 p-4 text-center font-bold text-white`}
-                            style={{'background': "1971cb"}}
+                            
                         >
                             <Link href="/">
                                 <a>Home</a>
@@ -32,7 +32,7 @@ export default function Index({services}) {
                         </div>
                         <div 
                             className={`${styles.breadcrumbs} col-span-4 md:col-span-8 mb-0 lg:col-span-2 bg-red-100 p-4 text-center font-bold text-white`}
-                            style={{'background': "1971cb"}}
+                            
                         >
                             <Link href="/services">
                                 <a>Services</a>
@@ -40,7 +40,7 @@ export default function Index({services}) {
                         </div>
                         <div 
                             className={`${styles.breadcrumbs} col-span-4 md:col-span-8 lg:col-span-2 bg-red-100 p-4 text-center font-bold text-white`}
-                            style={{'background': "1971cb"}}
+                            
                         >
                             <Link href={`/services/${services.slug}`}>
                                 <a>{services.slug.replace(/[\/-]/g, ' ')}</a>

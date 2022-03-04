@@ -73,7 +73,7 @@ export default function Home() {
             </div>
             <div className="grid gap-x-5 grid-cols-4 col-span-4 lg:col-start-7">
               <h2 className='col-span-4 font-bold text-4xl flex items-center justify-center md:justify-start'>Pressure Washing</h2>
-              <p className='col-span-4 text-lg text-center md:text-left'>"We use a special blend of cleaning detergents to fight hard against dirt, algae and mold. Because we use top of the line cleaning solutions we don't have to rely on brute force pressure washing which may damage your home."</p>
+              <p className='col-span-4 text-lg text-center md:text-left'>We use a special blend of cleaning detergents to fight hard against dirt, algae and mold. Because we use top of the line cleaning solutions we don`&apos;`t have to rely on brute force pressure washing which may damage your home.</p>
             </div>
           </Grid>
         </Container>

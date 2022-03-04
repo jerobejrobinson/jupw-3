@@ -33,7 +33,7 @@ export default function Index({project, projects}) {
                     <Grid>
                         <div className="container"
                             className={`${styles.breadcrumbs} col-span-4 md:col-span-8 mb-0 lg:col-span-1 bg-red-100 p-4 text-center font-bold text-white`}
-                            style={{'background': "1971cb"}}
+                            
                         >
                             <Link href="/">
                                 <a>Home</a>
@@ -41,7 +41,7 @@ export default function Index({project, projects}) {
                         </div>
                         <div 
                             className={`${styles.breadcrumbs} col-span-4 md:col-span-8 mb-0 lg:col-span-1 bg-red-100 p-4 text-center font-bold text-white`}
-                            style={{'background': "1971cb"}}
+                            
                         >
                             <Link href="/projects">
                                 <a>Projects</a>
@@ -49,7 +49,7 @@ export default function Index({project, projects}) {
                         </div>
                         <div 
                             className={`${styles.breadcrumbs} col-span-4 md:col-span-8 lg:col-span-3 bg-red-100 p-4 text-center font-bold text-white`}
-                            style={{'background': "1971cb"}}
+    
                         >
                             <Link href={`/services/${project.slug}`}>
                                 <a>{project.slug.replace(/[\/-]/g, ' ')}</a>

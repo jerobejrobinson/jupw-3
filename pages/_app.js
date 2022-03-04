@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
     return (
       <>
         <Head>
-          <Script id="hotjar">
+          <script id="hotjar">
             {`
               (function(h,o,t,j,a,r){
                 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }) {
                 a.appendChild(r);
               })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
             `}
-          </Script>
+          </script>
         </Head>
         <Script strategy='lazyOnload' src={`https://www.googletagmanager.com/gtag/js?id=G-1N0EXPKSD6`} async id='googleAnalytics'></Script>
         <Script strategy='lazyOnload' id='googleAnalyticsCode'>
@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }) {
     return (
       <>
         <Head>
-          <Script id="hotjar">
+          <script id="hotjar">
             {`
               (function(h,o,t,j,a,r){
                 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -54,7 +54,7 @@ function MyApp({ Component, pageProps }) {
                 a.appendChild(r);
               })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
             `}
-          </Script>
+          </script>
         </Head>
         <Script strategy='lazyOnload' src={`https://www.googletagmanager.com/gtag/js?id=G-1N0EXPKSD6`} async id='googleAnalytics'></Script>
         <Script strategy='lazyOnload' id='googleAnalyticsCode'>
