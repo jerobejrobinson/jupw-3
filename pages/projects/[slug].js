@@ -134,8 +134,9 @@ export async function getStaticProps({params}) {
 export async function getStaticPaths() {
     const projects = await getAllProjectSlugs();
     
+    console.log(projects.map(({ slug }) => ({ params: { slug }})))
     return {
         paths: projects.map(({ slug }) => ({ params: { slug }})),
-        fallback: true
+        fallback: false
     }
 }
