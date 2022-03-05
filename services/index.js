@@ -113,12 +113,10 @@ export const getProjectPage = async (slug) => {
                     fileName
                     url
                 }
-                connections {
-                    ... on City {
-                        slug
-                        title
-                        googleMapUrl
-                    }
+                city {
+                    slug
+                    title
+                    googleMapUrl
                 }
             }
             projects(last: 3) {

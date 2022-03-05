@@ -14,7 +14,7 @@ export default function Index({project, projects}) {
         
     })
 
-    const locationData = project.connections[1]
+    const locationData = project.city
     
     console.log(locationData)
     const router = useRouter();
@@ -122,7 +122,7 @@ export default function Index({project, projects}) {
 
 export async function getStaticProps({params}) {
     const data = await getProjectPage(params.slug);
-    // console.log(data)
+    
     return {
         props: {
             project: data[0],
