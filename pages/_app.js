@@ -12,8 +12,7 @@ function MyApp({ Component, pageProps }) {
   if(asPath === '/get-quote') {
     return (
       <>
-        <Head>
-          <script id="hotjar">
+        <Script id="hotjar">
             {`
               (function(h,o,t,j,a,r){
                 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -24,8 +23,7 @@ function MyApp({ Component, pageProps }) {
                 a.appendChild(r);
               })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
             `}
-          </script>
-        </Head>
+        </Script>
         <Script strategy='lazyOnload' src={`https://www.googletagmanager.com/gtag/js?id=G-1N0EXPKSD6`} async id='googleAnalytics'></Script>
         <Script strategy='lazyOnload' id='googleAnalyticsCode'>
           {`
