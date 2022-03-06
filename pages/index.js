@@ -21,7 +21,16 @@ export default function Home() {
         mainPage
         h2="MEET MEMPHIS TN&apos;S BEST PRESSURE WASHING COMPANY"
         p="James uptown pressure washing is a soft washing, low-pressure washing and exterior cleaning company. We can clean your house from roof to the ground you stand on, cleaning your driveway, walkways, siding, windows, gutters, roof and more! There&apos;s a reason we are the highest rated and reviewed exterior cleaning company in Memphis, TN. Watch this quick video to our team in ACTION."
-        videoLink={`<iframe width="100%" height="100%" src="https://www.youtube.com/embed/0eS5YySnNmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`}
+        videoLink={`
+          <iframe
+            style="width: 100%; height: 100%;"
+            src="https://tube.rvere.com/embed?v=0eS5YySnNmM&rel=0&controls=1"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen>
+          </iframe>
+        `}
       />
       <Wrapper>
         <Container>

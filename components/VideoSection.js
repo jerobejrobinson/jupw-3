@@ -10,6 +10,7 @@ export default function VideoSection({mainPage, h2, p, videoLink}) {
             <Grid>
                 <div className='hidden md:block md:col-span-8 lg:col-span-6 bg-gray-100 h-80'>
                     {ReactHtmlParser(videoLink)}
+                
                 </div>
                 <div className='col-span-4 md:col-span-8 lg:col-span-6 grid gap-x-5 grid-cols-4 lg:grid-cols-6 md:pt-10 lg:p-0'>
                     <h2 className='col-span-4 font-bold lg:col-span-6 text-2xl lg:text-4xl'>{h2}</h2>
