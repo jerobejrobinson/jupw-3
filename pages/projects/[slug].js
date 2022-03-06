@@ -7,6 +7,7 @@ import styles from '../../styles/ServicePage.module.css'
 import Link from "next/link";
 import ReactHtmlParser from 'html-react-parser'
 import ImageGallery from 'react-image-gallery';
+import Head from "next/head";
 
 export default function Index({project, projects}) {
     const images = project.projectImages.map(image => {
@@ -25,6 +26,11 @@ export default function Index({project, projects}) {
 
     return (
         <>
+            <Head>
+                <title>{project.title}</title>
+                <meta name="description" content={project.excerpt} />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+            </Head>
             <HeroSection 
                 heading={project.title}
             />
@@ -32,7 +38,7 @@ export default function Index({project, projects}) {
                 <div >
                     <Grid>
                         <div className="container"
-                            className={`${styles.breadcrumbs} col-span-4 md:col-span-8 mb-0 lg:col-span-1 bg-red-100 p-4 text-center font-bold text-white`}
+                            className={`${styles.breadcrumbs} col-span-4 md:col-span-8 mb-0 lg:col-span-2 bg-red-100 p-4 text-center font-bold text-white`}
                             
                         >
                             <Link href="/">
@@ -40,7 +46,7 @@ export default function Index({project, projects}) {
                             </Link>
                         </div>
                         <div 
-                            className={`${styles.breadcrumbs} col-span-4 md:col-span-8 mb-0 lg:col-span-1 bg-red-100 p-4 text-center font-bold text-white`}
+                            className={`${styles.breadcrumbs} col-span-4 md:col-span-8 mb-0 lg:col-span-2 bg-red-100 p-4 text-center font-bold text-white`}
                             
                         >
                             <Link href="/projects">
@@ -48,7 +54,7 @@ export default function Index({project, projects}) {
                             </Link>
                         </div>
                         <div 
-                            className={`${styles.breadcrumbs} col-span-4 md:col-span-8 lg:col-span-3 bg-red-100 p-4 text-center font-bold text-white`}
+                            className={`${styles.breadcrumbs} col-span-4 md:col-span-8 lg:col-span-4 bg-red-100 p-4 text-center font-bold text-white`}
     
                         >
                             <Link href={`/services/${project.slug}`}>

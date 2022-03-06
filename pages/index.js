@@ -10,6 +10,8 @@ export default function Home() {
     <>
       <Head>
         <title>James Uptown Pressure Washing And Roof Cleaning Memphis</title>
+        <meta name="description" content="James Uptown Pressure Washing and Roof Cleaning is an excellent pressure washing and roof cleaning company in Memphis, Tn. We are dedicated to delevering expext level pressure washing and roof cleaning services." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
       <HeroSection 
         mainPage

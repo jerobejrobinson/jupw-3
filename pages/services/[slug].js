@@ -6,6 +6,7 @@ import ReactHtmlParser from 'html-react-parser'
 import { Wrapper, Grid, GridRowSpace, Container } from "../../components/elements";
 import styles from '../../styles/ServicePage.module.css'
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Index({services}) {
     const router = useRouter();
@@ -15,6 +16,11 @@ export default function Index({services}) {
     }
     return (
         <>
+            <Head>
+                <title>{services.title}</title>
+                <meta name="description" content={services.excerpt} />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+            </Head>
             <HeroSection 
                 heading={services.title}
                 subHeading={services.excerpt}
@@ -39,7 +45,7 @@ export default function Index({services}) {
                             </Link>
                         </div>
                         <div 
-                            className={`${styles.breadcrumbs} col-span-4 md:col-span-8 lg:col-span-2 bg-red-100 p-4 text-center font-bold text-white`}
+                            className={`${styles.breadcrumbs} col-span-4 md:col-span-8 lg:col-span-3 bg-red-100 p-4 text-center font-bold text-white`}
                             
                         >
                             <Link href={`/services/${services.slug}`}>
