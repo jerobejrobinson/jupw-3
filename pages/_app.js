@@ -2,7 +2,6 @@ import { MainNavbar, Footer } from '../components'
 import '../styles/globals.css'
 import {useRouter} from 'next/router'
 import Script from "next/script"
-import Head from 'next/head'
 import FbChat from '../components/FbChat'
 
 function MyApp({ Component, pageProps }) {

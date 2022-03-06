@@ -37,7 +37,7 @@ export default function Home() {
               <li>No wait no worry service, we are ready when you are</li>
             </ul>
             <div className='col-span-4 md:col-span-3 lg:col-start-4 flex justify-center m:pt-40'>
-              <img src="https://ik.imagekit.io/jamesUPW/images/james/James-Owner-of-James-Uptown-Upkeeping.webp" alt="" />
+              <img src="https://ik.imagekit.io/jamesUPW/images/james/James-Owner-of-James-Uptown-Upkeeping.webp" alt="Owners Of James Uptown Pressure Washing and Roof Cleaning" loading='lazy'/>
             </div>
           </Grid>
         </Container>
@@ -60,12 +60,14 @@ export default function Home() {
                     src="https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-before.webp" 
                     srcSet="https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-before.webp?tr=w-320 320w, https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-before.webp?tr=w-640 640w, https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-before.webp?tr=w-760 760w, https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-before.webp?tr=w-980 980w, https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-before.webp?tr=w-1280 1280w, https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-before.webp?tr=w-1920 1920w" 
                     alt="Pressure Washing Before - Memphis Tn"
+                    loading='lazy'
                   />}
                 itemTwo={
                   <ReactCompareSliderImage 
                     src="https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-after.webp" 
                     srcSet="https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-after.webp?tr=w-320 320w, https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-after.webp?tr=w-640 640w, https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-after.webp?tr=w-760 760w, https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-after.webp?tr=w-980 980w, https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-after.webp?tr=w-1280 1280w, https://ik.imagekit.io/jamesUPW/images/slider/4/house-wash-after.webp?tr=w-1920 1920w"
                     alt="Pressure Washing After - Memphis Tn"
+                    loading='lazy'
                   />
                 }
                 changePositionOnHover
@@ -88,12 +90,14 @@ export default function Home() {
                     src="https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-before.webp" 
                     srcSet="https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-before.webp?tr=w-320 320w, https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-before.webp?tr=w-640 640w, https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-before.webp?tr=w-760 760w, https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-before.webp?tr=w-980 980w, https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-before.webp?tr=w-1280 1280w, https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-before.webp?tr=w-1920 1920w" 
                     alt="Roof Cleaning Before - Memphis Tn"
+                    loading='lazy'
                   />}
                 itemTwo={
                   <ReactCompareSliderImage 
                     src="https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-after.webp" 
                     srcSet="https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-after.webp?tr=w-320 320w, https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-after.webp?tr=w-640 640w, https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-after.webp?tr=w-760 760w, https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-after.webp?tr=w-980 980w, https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-after.webp?tr=w-1280 1280w, https://ik.imagekit.io/jamesUPW/images/slider/1/roof-cleaning-after.webp?tr=w-1920 1920w"
                     alt="Roof Cleaning After - Memphis Tn"
+                    loading='lazy'
                   />
                 }
                 changePositionOnHover
@@ -116,12 +120,14 @@ export default function Home() {
                     src="https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-before.webp" 
                     srcSet="https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-before.webp?tr=w-320 320w, https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-before.webp?tr=w-640 640w, https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-before.webp?tr=w-760 760w, https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-before.webp?tr=w-980 980w, https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-before.webp?tr=w-1280 1280w, https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-before.webp?tr=w-1920 1920w" 
                     alt="Driveway Cleaning Before - Memphis Tn"
+                    loading='lazy'
                   />}
                 itemTwo={
                   <ReactCompareSliderImage 
                     src="https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-after.webp" 
                     srcSet="https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-after.webp?tr=w-320 320w, https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-after.webp?tr=w-640 640w, https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-after.webp?tr=w-760 760w, https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-after.webp?tr=w-980 980w, https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-after.webp?tr=w-1280 1280w, https://ik.imagekit.io/jamesUPW/images/slider/2/driveway-cleaning-after.webp?tr=w-1920 1920w"
                     alt="Driveway Cleaning After- Memphis Tn"
+                    loading='lazy'
                   />
                 }
                 changePositionOnHover
@@ -144,12 +150,14 @@ export default function Home() {
                     src="https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-before.webp" 
                     srcSet="https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-before.webp?tr=w-320 320w, https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-before.webp?tr=w-640 640w, https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-before.webp?tr=w-760 760w, https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-before.webp?tr=w-980 980w, https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-before.webp?tr=w-1280 1280w, https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-before.webp?tr=w-1920 1920w" 
                     alt="Concrete Cleaning Before - Memphis Tn"
+                    loading='lazy'
                   />}
                 itemTwo={
                   <ReactCompareSliderImage 
                     src="https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-after.webp" 
                     srcSet="https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-after.webp?tr=w-320 320w, https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-after.webp?tr=w-640 640w, https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-after.webp?tr=w-760 760w, https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-after.webp?tr=w-980 980w, https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-after.webp?tr=w-1280 1280w, https://ik.imagekit.io/jamesUPW/images/slider/3/concrete-cleaning-after.webp?tr=w-1920 1920w"
                     alt="Concrete Cleaning After - Memphis Tn"
+                    loading='lazy'
                   />
                 }
                 changePositionOnHover
