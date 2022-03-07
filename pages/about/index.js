@@ -1,4 +1,4 @@
-import { ButtonGridGroup, Container, Grid, GridRowSpace, Wrapper } from "../../components/elements";
+import { Container, Grid, GridRowSpace, Wrapper } from "../../components/elements";
 import HeroSection from "../../components/HeroSection";
 import Head from "next/head";
 import Link from "next/link";
@@ -7,7 +7,9 @@ export default function Index() {
     return (
         <>
             <Head>
-                <title>James Uptown Pressure Washing And Roof Cleaning Memphis</title>
+                <title>About | James Uptown Pressure Washing And Roof Cleaning Memphis</title>
+                <meta name="description" content="James Uptown Pressure Washing and Roof Cleaning is a top tier pressure washing and roof cleaning company in Memphis, Tn." />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             </Head>
             <HeroSection 
                 heading="About James Uptown PW"

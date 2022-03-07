@@ -11,57 +11,12 @@ function MyApp({ Component, pageProps }) {
   if(asPath === '/get-quote') {
     return (
       <>
-        <Script id="hotjar">
-            {`
-              (function(h,o,t,j,a,r){
-                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                h._hjSettings={hjid:2792997,hjsv:6};
-                a=o.getElementsByTagName('head')[0];
-                r=o.createElement('script');r.async=1;
-                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                a.appendChild(r);
-              })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-            `}
-        </Script>
-        <Script strategy='lazyOnload' src={`https://www.googletagmanager.com/gtag/js?id=G-1N0EXPKSD6`} async id='googleAnalytics'></Script>
-        <Script strategy='lazyOnload' id='googleAnalyticsCode'>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-1N0EXPKSD6');
-          `}
-        </Script>
         <Component {...pageProps} />
       </>
     )
   } else {
     return (
       <>
-        
-        <Script id="hotjar">
-          {`
-            (function(h,o,t,j,a,r){
-              h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-              h._hjSettings={hjid:2792997,hjsv:6};
-              a=o.getElementsByTagName('head')[0];
-              r=o.createElement('script');r.async=1;
-              r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-              a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-          `}
-        </Script>
-        <Script strategy='lazyOnload' src={`https://www.googletagmanager.com/gtag/js?id=G-1N0EXPKSD6`} async id='googleAnalytics'></Script>
-        <Script strategy='lazyOnload' id='googleAnalyticsCode'>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-1N0EXPKSD6');
-          `}
-        </Script>
         <MainNavbar/>
         <FbChat />
         <Component {...pageProps} />
