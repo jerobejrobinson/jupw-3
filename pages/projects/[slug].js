@@ -27,7 +27,7 @@ export default function Index({project, projects}) {
     return (
         <>
             <Head>
-                <title>{project.title}</title>
+                <title>{project.title} | James Uptown Pressure Washing And Roof Cleaning</title>
                 <meta name="description" content={project.excerpt} />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             </Head>

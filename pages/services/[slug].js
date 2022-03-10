@@ -17,7 +17,7 @@ export default function Index({services}) {
     return (
         <>
             <Head>
-                <title>{services.title}</title>
+                <title>{services.title} | James Uptown Pressure Washing And Roof Cleaning</title>
                 <meta name="description" content={services.excerpt} />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             </Head>

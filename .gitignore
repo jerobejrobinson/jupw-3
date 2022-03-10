@@ -35,4 +35,6 @@ yarn-error.log*
 .vercel
 
 .env
-# netlify.toml
+
+/public/robots.txt
+/public/sitemap.xml
